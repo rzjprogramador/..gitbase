@@ -9,3 +9,5 @@ subir_para_git_remoto_apos_tagear: `git push origin release --follow-tags`
 ---
 
 modelo_tagear: v1.0.0.branch_feature  exemplo: v1.0.0.registers_participant
+
+usar_modulo_da_release: "Obs: Depois de tageado na release >> Entrar via web na release > entra na pasta do modulo > clica no arquivo que quer usar e clica em Raw pega a url e use no seu proejto."
