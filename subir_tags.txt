@@ -1,0 +1,11 @@
+
+# subir tag_nomeadas e comitadas
+modelo_commit_para_tagear: "subir registers_participant para versao 1.0.0 neste commit"
+
+tagear_commit: `git tag -a "v1.0.0" -m "version v1.0.0" HASHCOMMIT`
+
+subir_para_git_remoto_apos_tagear: `git push origin release --follow-tags`
+
+---
+
+modelo_tagear: v1.0.0.branch_feature  exemplo: v1.0.0.registers_participant
