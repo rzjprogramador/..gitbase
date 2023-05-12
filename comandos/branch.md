@@ -4,7 +4,7 @@ marp: true
 
 # Branch
 
-1. Branch
+1. ao criar branch tem que púublica-la  com uma mensagem e confere na web se ela esta entre todas as branchs.
 1. importante: se for deletar fique na master- nao esteja logado na branch que est manipulando.
 
 2. Comando_intercalado_sincronizador_atualizador_status_pos_comandos

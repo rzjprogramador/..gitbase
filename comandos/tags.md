@@ -6,10 +6,10 @@ marp: true
 
 1. tagear
    1. tag_ar_commit_melhor:
-      "`git tag v1.0.0 -m "mensagem release: informacao" <hashDoCommit_alvo>  // obs: esta é a melhor forma de tagear`"
+      "`git tag v1.0.0 -m "mensagem release: informacao" <hashDoCommit_alvo>  // obs: esta é a melhor forma de tagear // obs apos tagerar faça>> subir_tags_anotadas:: git push origin release --follow-tags`"
 
 1. visualizar
-   1. local
+   1. loc
       1. ver todas_tags: "`git tag`"
       1. ver todas_tags_local: "`git fetch`"
 
@@ -28,4 +28,4 @@ marp: true
 
    1. push_subir_tags
       1. subir_tags_anotadas:
-         "`git push origin release_ts --follow-tags  // obs: o git nao sobe tags com os push entao use este comando apra subir aa tags anotadas`"
+         "`git push origin release --follow-tags  // obs: o git nao sobe tags com os push entao use este comando apra subir aa tags anotadas`"
