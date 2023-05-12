@@ -1,10 +1,10 @@
 
 # subir tag_nomeadas e comitadas
-modelo_commit_para_tagear: "subir registers_participant para versao 1.0.0 neste commit"
+modelo_commit_para_tagear: "publicando [ artefato ] para versao 1.0.0 neste commit"
 
-tagear_commit: `git tag -a "v1.0.0" -m "version v1.0.0" HASHCOMMIT`
+tagear_commit: `git tag -a "v1.0.0_NOMETAG" -m "version v1.0.0_NOME_TAG" HASHCOMMIT`
 
-subir_para_git_remoto_apos_tagear: `git push origin release --follow-tags`
+subir_para_git_remoto_apos_tagear: `git push origin NOME_BRANCH --follow-tags`
 
 ---
 
