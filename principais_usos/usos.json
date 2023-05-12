@@ -1,0 +1,6 @@
+[
+  {
+    "nome": "voltar ao estado de um commit",
+    "comandos": "git log --- git revert <hash>"
+  }
+]
