@@ -5,6 +5,11 @@
     "macete": "todo"
   },
   {
+    "titulo": "usar modulo proprio em release sem versao",
+    "comandos": "fazer um raw na release alvo e usar sem versao",
+    "macete": "todo"
+  },
+  {
     "titulo": "criar feature e release manual",
     "comandos": "1- cria a branch feature publica e implementa >> 2- ainda nesta branch cria apartir dela a branch release e publica >> 3- se precisar implementar na release criada faça isto na feature e depois faça um MERGE para a release se atualizar.",
     "macete": " segredo: a cada branch publique-a , e sempre implemente na feature e mergie com a release"
