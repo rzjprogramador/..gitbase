@@ -1,0 +1,32 @@
+[
+  {
+    "titulo": "",
+    "comandos": "",
+    "macete": "todo"
+  },
+  {
+    "titulo": "subir tag_nomeadas e comitadas",
+    "comandos": "tagear_commit: `git tag -a \"v1.0.0_NOMETAG\" -m \"version v1.0.0_NOME_TAG\" HASHCOMMIT \n subir_para_git_remoto_apos_tagear: `git push origin NOME_BRANCH --follow-tags`",
+    "macete": "modelo_commit_para_tagear: <publicando [ artefato ] para versao 1.0.0 neste commit> \n modelo_tagear: v1.0.0.branch_feature  exemplo: v1.0.0.registers_participant"
+  },
+  {
+    "titulo": "usar tag como raw para modulos proprios no github",
+    "comandos": "apos tagear: acesse o git na web >> 1 -clique em tags >> 2 - na tag escolhida >> 3 - de novo na tag escolhida perto d elançamento acima confira se a url virou para BRANCH/tree/ >> 4 - No arquivo desejado que tem o modulo >> 5 - depois no raw / cru e copie e use a url",
+    "macete": "formato de formar a rawTag: https://github.com  >> /user/repo/tag-or-branch/file  >> \n  exemplo: https://github.com/rzjprogramador/lib_rzj_typescript/blob/v1.0.1_modulesAux/main.ts"
+  },
+  {
+    "titulo": "voltar ao estado de um commit",
+    "comandos": "git log --- git revert <hash>",
+    "macete": "todo"
+  },
+  {
+    "titulo": "usar modulo proprio em release sem versao",
+    "comandos": "fazer um raw na release alvo e usar sem versao",
+    "macete": "todo"
+  },
+  {
+    "titulo": "criar feature e release manual",
+    "comandos": "1- cria a branch feature publica e implementa >> 2- ainda nesta branch cria apartir dela a branch release e publica >> 3- se precisar implementar na release criada faça isto na feature e depois faça um MERGE para a release se atualizar.",
+    "macete": " segredo: a cada branch publique-a , e sempre implemente na feature e mergie com a release"
+  }
+]
